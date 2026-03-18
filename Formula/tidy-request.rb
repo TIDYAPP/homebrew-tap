@@ -1,8 +1,8 @@
 class TidyRequest < Formula
   desc "TIDY - AI Property Manager CLI"
   homepage "https://tidy.com/developers"
-  url "https://registry.npmjs.org/@tidydotcom/cli/-/cli-1.0.0.tgz"
-  sha256 "388228eed9e40cd2cc28056d2c9b1d6be2363634b882ec7825d1506ee4e41b8c"
+  url "https://registry.npmjs.org/@tidydotcom/cli/-/cli-1.0.2.tgz"
+  sha256 "21d763a4f04e59c64532711b48f149d069b47074c2fe87f85d103a1a17d4d4ca"
   license "MIT"
 
   def install
