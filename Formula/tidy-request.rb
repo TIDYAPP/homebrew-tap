@@ -6,7 +6,9 @@ class TidyRequest < Formula
   license "MIT"
 
   def install
-    bin.install "package/bin/tidy-request"
+    cd "package" do
+      bin.install "bin/tidy-request"
+    end
   end
 
   def caveats
